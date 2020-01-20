@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_week"
+            android:icon="@android:drawable/ic_menu_week"
+            android:title="@string/menu_week" />
+        <item
+            android:id="@+id/nav_stored"
+            android:icon="@android:drawable/ic_menu_month"
+            android:title="@string/menu_stored" />
+        <item
+            android:id="@+id/nav_certain_date"
+            android:icon="@android:drawable/ic_menu_day"
+            android:title="@string/menu_certain_date" />
+    </group>
+
+</menu>
